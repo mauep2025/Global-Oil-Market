@@ -4,13 +4,6 @@ function yb = bootstrapVAR(y,p,k)
 % p : order of lags
 % k : # of initial trimming observation
 
-% written by: 
-% Jay H. Hong, Dept of Economics
-% University of Pennsylvania
-% 3718 Locust Walk
-% Philadelphia, PA 19104
-% jayhwa@econ.upenn.edu
-
 
 [nobs,nvar] = size(y);
 
